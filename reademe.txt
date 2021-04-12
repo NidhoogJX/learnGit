@@ -51,3 +51,4 @@ git status//来查看是否还有文件未提交
  git log //查看提交日志
  git log –pretty=oneline//将显示的日志信息修改为一行显示
 git reflog 查看版本记录
+git push origin master 
