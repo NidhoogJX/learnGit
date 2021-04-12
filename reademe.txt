@@ -48,4 +48,7 @@ git branch -D <branch_name> // 强制删除某个分支
 git branch -avv // 查看本地分支与远端分支关系，并且显示分支最新一次提交信息
 git remote show origin // 查看远端分支间关系
 git status//来查看是否还有文件未提交
+ 
 
+新增
+改变 HHH
