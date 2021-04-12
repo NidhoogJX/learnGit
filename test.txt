@@ -1,0 +1,16 @@
+使用git克隆github上的项目失败：unable to access github: OpenSSL SSL_read: Connection was reset, errno 10054
+原因：由于Http协议错误，当 pull 或者 clone 的时候，github被伟大的墙屏蔽所致。
+
+解决：
+
+参考无法连接github，修改host映射
+
+更新DNS缓存
+Mac用户：
+
+sudo killall -HUP mDNSResponder
+sudo dscacheutil -flushcache
+
+Windows用户：cmd命令窗口执行：
+
+ipconfig /flushdns
