@@ -1,0 +1,37 @@
+CREATE TABLE [dbo].[MES_ORDER_LOT_INFO] (
+	[ID] [nvarchar] (100) NOT NULL,
+	[CREATED_TIME] [datetime2] (7) NOT NULL,
+	[CREATED_BY] [nvarchar] (50) NULL,
+	[MODIFIED_TIME] [datetime2] (7) NULL,
+	[MODIFIED_BY] [nvarchar] (50) NULL,
+	[ENTITY_LOCK] [int] NOT NULL,
+	[DELETED_BY] [nvarchar] (50) NULL,
+	[DELETED_TIME] [datetime2] (7) NULL,
+	[STATUS] [bit] NULL,
+	[FACTORY_ID] [nvarchar] (50) NULL,
+	[ENTITY_ID] [varchar] (50) NULL,
+	[SN1] [nvarchar] (100) NULL,
+	[SN2] [nvarchar] (100) NULL,
+	[SN3] [nvarchar] (100) NULL,
+	[SN4] [nvarchar] (100) NULL,
+	[SN5] [nvarchar] (100) NULL,
+	[SN6] [nvarchar] (100) NULL,
+	[SN7] [nvarchar] (100) NULL,
+	[SN8] [nvarchar] (100) NULL,
+	[SN9] [nvarchar] (100) NULL,
+	[SNA] [nvarchar] (100) NULL,
+	[SNB] [nvarchar] (100) NULL,
+	[SNC] [nvarchar] (100) NULL,
+	[SND] [nvarchar] (100) NULL,
+	[SNE] [nvarchar] (100) NULL,
+	[SNF] [nvarchar] (100) NULL,
+	[SNG] [nvarchar] (100) NULL,
+PRIMARY KEY CLUSTERED 
+(
+[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+

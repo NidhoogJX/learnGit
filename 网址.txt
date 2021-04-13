@@ -1,0 +1,21 @@
+工作相关网址：
+http://10.10.1.12:10050/                                                                                                       精易学堂     账号star.jin 密码 1214939285jx
+http://10.10.1.11/#test-nocode                                                                                            禅道管理     账号star.jin 密码 1214939285jx
+http://47.98.38.114:10020/application                                                                                  平台2.0版本 账号15755341548 密码 1214939285
+http://118.31.113.93:13014/#/                                                                                              迪奇项目     账号jx 密码 123456
+http://118.31.113.93:13013/#/action                                                                                     项目开发      账号jx 密码 123456
+http://118.31.113.93:22013/                                                                                                  卫智项目     账号jinxin密码123456
+WIFI:
+Leantek_Phone    密码：Leangogowlap02 
+Leantek_2.4G      密码：Leangogowlap01
+Leantek_5G         密码：Leangogowlap05
+Leantek               密码：Leangogowlap05
+Leantek-WIFI5    密码：Leangogowlap05
+公司邮箱：
+ star.jin@leantek.cn  密码Leantek1116  
+电脑密码 646464
+控制面板\系统和安全\系统
+账号leanmom，密码Leanmom2020
+47.96.149.215
+数据库名称是：LEANTEK_WEIZHI
+192.168.40.5:8891
