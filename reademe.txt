@@ -52,3 +52,20 @@ git status//来查看是否还有文件未提交
  git log –pretty=oneline//将显示的日志信息修改为一行显示
 git reflog 查看版本记录
 git push origin master 
+
+
+
+
+
+#!/bin/bash
+echo "开始批量更新最新代码"
+for dir in `ls`; do
+        if [ -d $dir ];then
+                echo "-----------------";
+                cd $dir;
+                echo "开始更新项目 $dir ";
+                git fetch;
+                echo "代码更新完成";
+                cd ../;
+        fi
+done
