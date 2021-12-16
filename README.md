@@ -1,2 +1,2 @@
 # learnGit
-初学
+学习github的使用
